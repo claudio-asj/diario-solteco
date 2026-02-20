@@ -23,8 +23,9 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "claudio-asj", // Usually your GitHub org/user name.
+  projectName: "diario-solteco.github.io", // Usually your repo name.
+  deploymentBranch: "main",
 
   onBrokenLinks: "throw",
 
