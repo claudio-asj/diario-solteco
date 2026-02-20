@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdiario_solteco=globalThis.webpackChunkdiario_solteco||[]).push([[472],{5513(i){i.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Primeiro dia","permalink":"/diario-solteco/blog/primeiro-dia","unlisted":false,"date":"2026-02-26T00:00:00.000Z"}]}')}}]);

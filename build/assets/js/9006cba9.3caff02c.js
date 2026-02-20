@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdiario_solteco=globalThis.webpackChunkdiario_solteco||[]).push([[219],{3284(o){o.exports=JSON.parse('{"metadata":{"permalink":"/diario-solteco/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

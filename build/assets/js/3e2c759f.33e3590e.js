@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdiario_solteco=globalThis.webpackChunkdiario_solteco||[]).push([[907],{64(o){o.exports=JSON.parse('{"tags":[{"label":"Conversa","permalink":"/diario-solteco/blog/tags/conversa","description":"Apenas uma conversa minha comigo mesmo :/","count":1}]}')}}]);

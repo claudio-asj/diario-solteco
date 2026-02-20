@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdiario_solteco=globalThis.webpackChunkdiario_solteco||[]).push([[903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/diario-solteco/blog","blogTitle":"Blog","authorsListPath":"/diario-solteco/blog/authors"}')}}]);

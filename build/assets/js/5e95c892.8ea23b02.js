@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdiario_solteco=globalThis.webpackChunkdiario_solteco||[]).push([[647],{7121(e,s,r){r.r(s),r.d(s,{default:()=>u});r(6540);var a=r(4164),o=r(7559),c=r(5500),i=r(2831),l=r(1656),t=r(4848);function u(e){return(0,t.jsx)(c.e3,{className:(0,a.A)(o.G.wrapper.docsPages),children:(0,t.jsx)(l.A,{children:(0,i.v)(e.route.routes)})})}}}]);
