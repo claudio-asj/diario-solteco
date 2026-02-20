@@ -10,28 +10,19 @@ const config: Config = {
     "Este site tem como objetivo simples organizar muito daquilo que venho aprendendo durante meu tempo no TICDeMoS (SOLTEC), ou seja minhas aventuras dentro da extensão universitária voltado para TI.",
   favicon: "img/favicon.ico",
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
   },
 
-  // Set the production url of your site here
   url: "https://claudio-asj.github.io",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/diario-solteco/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "claudio-asj", // Usually your GitHub org/user name.
-  projectName: "diario-solteco.github.io", // Usually your repo name.
+  organizationName: "claudio-asj",
+  projectName: "diario-solteco",
   deploymentBranch: "main",
 
   onBrokenLinks: "throw",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "pt-br",
     locales: ["pt-br"],
@@ -43,10 +34,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/claudio-asj/diario-solteco/blob/main",
         },
         blog: {
           showReadingTime: true,
@@ -54,11 +42,7 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          // Useful options to enforce blogging best practices
+          editUrl: "https://github.com/claudio-asj/diario-solteco/blob/main",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
@@ -71,15 +55,14 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "My Site",
+      title: "Diario Solteco",
       logo: {
-        alt: "My Site Logo",
+        alt: "Logo Diario Solteco",
         src: "img/logo.svg",
       },
       items: [
@@ -87,11 +70,11 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/claudio-asj/diario-solteco",
           label: "GitHub",
           position: "right",
         },
@@ -101,46 +84,33 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Conteudo",
           items: [
             {
-              label: "Tutorial",
+              label: "Introducao",
               to: "/docs/intro",
             },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
             {
               label: "Blog",
               to: "/blog",
             },
+          ],
+        },
+        {
+          title: "Projeto",
+          items: [
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Repositorio",
+              href: "https://github.com/claudio-asj/diario-solteco",
+            },
+            {
+              label: "Pages",
+              href: "https://claudio-asj.github.io/diario-solteco/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Claudio Alves. Feito com Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
