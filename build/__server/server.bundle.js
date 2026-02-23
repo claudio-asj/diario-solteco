@@ -85,8 +85,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
 
 
-const frontMatter = {};
-const contentTitle = 'Tela inicial';
+const frontMatter = {
+	title: 'SOLTEC – Núcleo de Solidariedade Técnica',
+	description: 'Apresentação institucional do SOLTEC/UFRJ',
+	sidebar_position: 1
+};
+const contentTitle = 'SOLTEC – Núcleo de Solidariedade Técnica da UFRJ';
 
 const assets = {
 
@@ -94,19 +98,244 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "📌 Sobre o SOLTEC",
+  "id": "-sobre-o-soltec",
+  "level": 2
+}, {
+  "value": "🎯 Missão",
+  "id": "-missão",
+  "level": 2
+}, {
+  "value": "🏛 Histórico",
+  "id": "-histórico",
+  "level": 2
+}, {
+  "value": "🧩 Linhas de Atuação",
+  "id": "-linhas-de-atuação",
+  "level": 2
+}, {
+  "value": "1️⃣ Extensão",
+  "id": "1️⃣-extensão",
+  "level": 3
+}, {
+  "value": "2️⃣ Pesquisa",
+  "id": "2️⃣-pesquisa",
+  "level": 3
+}, {
+  "value": "3️⃣ Ensino",
+  "id": "3️⃣-ensino",
+  "level": 3
+}, {
+  "value": "👥 Público e Participação",
+  "id": "-público-e-participação",
+  "level": 2
+}, {
+  "value": "🌎 Impacto",
+  "id": "-impacto",
+  "level": 2
+}, {
+  "value": "🔗 Links Institucionais",
+  "id": "-links-institucionais",
+  "level": 2
+}, {
+  "value": "📍 Localização",
+  "id": "-localização",
+  "level": 2
+}];
 function _createMdxContent(props) {
   const _components = {
+    a: "a",
+    br: "br",
     h1: "h1",
+    h2: "h2",
+    h3: "h3",
     header: "header",
+    hr: "hr",
+    li: "li",
+    p: "p",
+    strong: "strong",
+    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
     ...props.components
   };
-  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.header, {
-    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h1, {
-      id: "tela-inicial",
-      children: "Tela inicial"
-    })
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.header, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h1, {
+        id: "soltec--núcleo-de-solidariedade-técnica-da-ufrj",
+        children: "SOLTEC – Núcleo de Solidariedade Técnica da UFRJ"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+      align: "center",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+        src: "https://www.nides.ufrj.br/images/Imagens/programas/soltec.jpg",
+        alt: "Logo SOLTEC UFRJ",
+        width: "250"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.hr, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "-sobre-o-soltec",
+      children: "📌 Sobre o SOLTEC"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: ["O ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "SOLTEC (Núcleo de Solidariedade Técnica)"
+      }), " é um programa vinculado ao", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.br, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Núcleo Interdisciplinar para o Desenvolvimento Social (NIDES)"
+      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.br, {}), "\n", "do ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Centro de Tecnologia da Universidade Federal do Rio de Janeiro (UFRJ)"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "Criado em 2003, o núcleo atua de forma interdisciplinar integrando:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Extensão universitária"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Pesquisa aplicada"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Ensino"
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: ["com foco em ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Tecnologia Social"
+      }), ", ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Economia Solidária"
+      }), " e ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Desenvolvimento Territorial"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.hr, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "-missão",
+      children: "🎯 Missão"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "Promover a construção coletiva de soluções técnicas e sociais junto a comunidades, movimentos sociais e organizações populares, visando:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Equidade social"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Sustentabilidade ambiental"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Fortalecimento de políticas públicas"
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.hr, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "-histórico",
+      children: "🏛 Histórico"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: ["O SOLTEC foi fundado em ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "13 de março de 2003"
+      }), ", a partir da mobilização de estudantes e docentes da Escola Politécnica da UFRJ."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "Desde então, expandiu sua atuação para diferentes áreas do conhecimento, incorporando estudantes e pesquisadores de:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Engenharias"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Ciências Sociais"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Arquitetura e Urbanismo"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Comunicação"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Letras"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Outras áreas interdisciplinares"
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.hr, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "-linhas-de-atuação",
+      children: "🧩 Linhas de Atuação"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "1️⃣-extensão",
+      children: "1️⃣ Extensão"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "Projetos desenvolvidos diretamente com comunidades e territórios, com metodologias participativas e construção coletiva de conhecimento."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+      align: "center",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+        src: "https://www.soltec.ufrj.br/wp-content/uploads/2020/04/projeto-territorio.jpg",
+        alt: "Projeto territorial SOLTEC",
+        width: "600"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.hr, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "2️⃣-pesquisa",
+      children: "2️⃣ Pesquisa"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "Produção de conhecimento voltado para:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Tecnologias Sociais"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Economia Solidária"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Políticas Públicas"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Desenvolvimento Social"
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+      align: "center",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+        src: "https://www.soltec.ufrj.br/wp-content/uploads/2020/04/pesquisa-soltec.jpg",
+        alt: "Pesquisa SOLTEC",
+        width: "600"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.hr, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "3️⃣-ensino",
+      children: "3️⃣ Ensino"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "Oferta de disciplinas, oficinas e atividades integradas à formação acadêmica com abordagem crítica e interdisciplinar."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+      align: "center",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+        src: "https://www.soltec.ufrj.br/wp-content/uploads/2020/04/ensino-soltec.jpg",
+        alt: "Ensino SOLTEC",
+        width: "600"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.hr, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "-público-e-participação",
+      children: "👥 Público e Participação"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "O núcleo é composto por:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Estudantes de graduação e pós-graduação"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Professores"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Técnicos administrativos"
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "A participação é aberta a diferentes áreas, promovendo integração entre saber técnico e saber popular."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.hr, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "-impacto",
+      children: "🌎 Impacto"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "Ao longo de sua trajetória, o SOLTEC contribuiu para:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Apoio técnico a empreendimentos de economia solidária"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Formação de redes territoriais"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Desenvolvimento de metodologias participativas"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Produção acadêmica e incidência em políticas públicas"
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.hr, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "-links-institucionais",
+      children: "🔗 Links Institucionais"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: ["Site oficial: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+          href: "https://www.soltec.ufrj.br",
+          children: "https://www.soltec.ufrj.br"
+        })]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "NIDES/UFRJ"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Universidade Federal do Rio de Janeiro"
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.hr, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "-localização",
+      children: "📍 Localização"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: ["Rio de Janeiro – RJ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.br, {}), "\n", "Centro de Tecnologia – UFRJ"]
+    })]
   });
 }
 function MDXContent(props = {}) {
@@ -146,7 +375,8 @@ __webpack_require__.r(__webpack_exports__);
 
 const frontMatter = {
 	title: 'TICDeMos',
-	description: 'Tecnologias da Informação e Comunicação, Democracia e Movimentos Sociais'
+	description: 'Tecnologias da Informação e Comunicação, Democracia e Movimentos Sociais',
+	sidebar_position: 1
 };
 const contentTitle = 'TICDeMoS';
 
@@ -417,6 +647,69 @@ function _createMdxContent(props) {
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
       children: "Seu objetivo central é colocar a tecnologia a serviço da organização coletiva e da transformação social."
     })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return MDXLayout ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(MDXLayout, {
+    ...props,
+    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+
+
+
+/***/ },
+
+/***/ 3282
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   assets: () => (/* binding */ assets),
+/* harmony export */   contentTitle: () => (/* binding */ contentTitle),
+/* harmony export */   "default": () => (/* binding */ MDXContent),
+/* harmony export */   frontMatter: () => (/* binding */ frontMatter),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_docs_default_site_docs_tecnologia_social_md_371_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   toc: () => (/* binding */ toc)
+/* harmony export */ });
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_docs_default_site_docs_tecnologia_social_md_371_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3035);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8453);
+
+
+const frontMatter = {
+	title: 'Tecnologia Social',
+	description: 'Alguma coisa sobre TS',
+	sidebar_position: 2
+};
+const contentTitle = 'Tecnologia Social';
+
+const assets = {
+
+};
+
+
+
+const toc = [];
+function _createMdxContent(props) {
+  const _components = {
+    h1: "h1",
+    header: "header",
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.header, {
+    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h1, {
+      id: "tecnologia-social",
+      children: "Tecnologia Social"
+    })
   });
 }
 function MDXContent(props = {}) {
@@ -2539,7 +2832,7 @@ const SvgUndrawDocusaurusTree = ({
 /* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9867);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"01a85c17":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(9140))),"@theme/BlogTagsListPage",/*require.resolve*/(9140)],"079b1d14":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(6213))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-archive-d1a.json",/*require.resolve*/(6213)],"0e384e19":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(619))),"@site/docs/intro.md",/*require.resolve*/(619)],"1332d671":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(120))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-tags-conversa-b3c.json",/*require.resolve*/(120)],"17896441":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(6915))),"@theme/DocItem",/*require.resolve*/(6915)],"1df93b7f":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(6866))),"@site/src/pages/index.tsx",/*require.resolve*/(6866)],"1f391b9e":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4250))),"@theme/MDXPage",/*require.resolve*/(4250)],"33fc5bb8":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(778))),"@theme/Blog/Pages/BlogAuthorsPostsPage",/*require.resolve*/(778)],"36994c47":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(5516))),"@generated/docusaurus-plugin-content-blog/default/__plugin.json",/*require.resolve*/(5516)],"393be207":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(3014))),"@site/src/pages/markdown-page.md",/*require.resolve*/(3014)],"3e2c759f":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(64))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-tags-b20.json",/*require.resolve*/(64)],"49b8d162":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(677))),"@generated/docusaurus-plugin-content-docs/default/p/diario-solteco-docs-ad6.json",/*require.resolve*/(677)],"5e95c892":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7121))),"@theme/DocsRoot",/*require.resolve*/(7121)],"5e9f5e1a":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4784))),"@generated/docusaurus.config",/*require.resolve*/(4784)],"621db11d":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(5613))),"@theme/Blog/Pages/BlogAuthorsListPage",/*require.resolve*/(5613)],"6875c492":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(5450))),"@theme/BlogTagsPostsPage",/*require.resolve*/(5450)],"69ba12b1":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(9451))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-authors-824.json",/*require.resolve*/(9451)],"814f3328":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(5513))),"~blog/default/blog-post-list-prop-default.json",/*require.resolve*/(5513)],"9006cba9":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(3284))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-7d7.json",/*require.resolve*/(3284)],"9e4087bc":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(9331))),"@theme/BlogArchivePage",/*require.resolve*/(9331)],"a1736471":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7181))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-authors-claudioasj-0bb.json",/*require.resolve*/(7181)],"a6aa9e1f":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7785))),"@theme/BlogListPage",/*require.resolve*/(7785)],"a7456010":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(8552))),"@generated/docusaurus-plugin-content-pages/default/__plugin.json",/*require.resolve*/(8552)],"a7bd4aaa":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4532))),"@theme/DocVersionRoot",/*require.resolve*/(4532)],"a94703ab":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(8944))),"@theme/DocRoot",/*require.resolve*/(8944)],"aba21aa0":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7093))),"@generated/docusaurus-plugin-content-docs/default/__plugin.json",/*require.resolve*/(7093)],"acecf23e":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(1912))),"~blog/default/blogMetadata-default.json",/*require.resolve*/(1912)],"c81cc882":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4575))),"@site/blog/2026-02-26-primeiro-dia.mdx",/*require.resolve*/(4575)],"ccc49370":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(807))),"@theme/BlogPostPage",/*require.resolve*/(807)],"d7cca3f7":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(1761))),"@site/blog/2026-02-26-primeiro-dia.mdx?truncated=true",/*require.resolve*/(1761)],"e57cac48":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(2200))),"@site/docs/projetos/ticdemos.md",/*require.resolve*/(2200)]});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"01a85c17":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(9140))),"@theme/BlogTagsListPage",/*require.resolve*/(9140)],"053b142b":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(9898))),"@generated/docusaurus-plugin-content-docs/default/p/diario-solteco-docs-category-projetos-822.json",/*require.resolve*/(9898)],"079b1d14":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(6213))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-archive-d1a.json",/*require.resolve*/(6213)],"0e384e19":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(619))),"@site/docs/intro.md",/*require.resolve*/(619)],"1332d671":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(120))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-tags-conversa-b3c.json",/*require.resolve*/(120)],"14eb3368":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(8780))),"@theme/DocCategoryGeneratedIndexPage",/*require.resolve*/(8780)],"17896441":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(6915))),"@theme/DocItem",/*require.resolve*/(6915)],"1df93b7f":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(6866))),"@site/src/pages/index.tsx",/*require.resolve*/(6866)],"1f391b9e":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4250))),"@theme/MDXPage",/*require.resolve*/(4250)],"33fc5bb8":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(778))),"@theme/Blog/Pages/BlogAuthorsPostsPage",/*require.resolve*/(778)],"36994c47":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(5516))),"@generated/docusaurus-plugin-content-blog/default/__plugin.json",/*require.resolve*/(5516)],"3713613c":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(3282))),"@site/docs/tecnologia-social.md",/*require.resolve*/(3282)],"393be207":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(3014))),"@site/src/pages/markdown-page.md",/*require.resolve*/(3014)],"3e2c759f":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(64))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-tags-b20.json",/*require.resolve*/(64)],"49b8d162":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(677))),"@generated/docusaurus-plugin-content-docs/default/p/diario-solteco-docs-ad6.json",/*require.resolve*/(677)],"5e95c892":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7121))),"@theme/DocsRoot",/*require.resolve*/(7121)],"5e9f5e1a":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4784))),"@generated/docusaurus.config",/*require.resolve*/(4784)],"621db11d":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(5613))),"@theme/Blog/Pages/BlogAuthorsListPage",/*require.resolve*/(5613)],"6875c492":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(5450))),"@theme/BlogTagsPostsPage",/*require.resolve*/(5450)],"69ba12b1":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(9451))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-authors-824.json",/*require.resolve*/(9451)],"814f3328":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(5513))),"~blog/default/blog-post-list-prop-default.json",/*require.resolve*/(5513)],"9006cba9":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(3284))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-7d7.json",/*require.resolve*/(3284)],"9e4087bc":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(9331))),"@theme/BlogArchivePage",/*require.resolve*/(9331)],"a1736471":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7181))),"@generated/docusaurus-plugin-content-blog/default/p/diario-solteco-blog-authors-claudioasj-0bb.json",/*require.resolve*/(7181)],"a6aa9e1f":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7785))),"@theme/BlogListPage",/*require.resolve*/(7785)],"a7456010":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(8552))),"@generated/docusaurus-plugin-content-pages/default/__plugin.json",/*require.resolve*/(8552)],"a7bd4aaa":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4532))),"@theme/DocVersionRoot",/*require.resolve*/(4532)],"a94703ab":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(8944))),"@theme/DocRoot",/*require.resolve*/(8944)],"aba21aa0":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7093))),"@generated/docusaurus-plugin-content-docs/default/__plugin.json",/*require.resolve*/(7093)],"acecf23e":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(1912))),"~blog/default/blogMetadata-default.json",/*require.resolve*/(1912)],"c81cc882":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4575))),"@site/blog/2026-02-26-primeiro-dia.mdx",/*require.resolve*/(4575)],"ccc49370":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(807))),"@theme/BlogPostPage",/*require.resolve*/(807)],"d7cca3f7":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(1761))),"@site/blog/2026-02-26-primeiro-dia.mdx?truncated=true",/*require.resolve*/(1761)],"e57cac48":[()=>Promise.resolve().then(()=>(0,_home_cld_Documentos_diario_solteco_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(2200))),"@site/docs/projetos/ticdemos.md",/*require.resolve*/(2200)]});
 
 /***/ },
 
@@ -2552,7 +2845,7 @@ const SvgUndrawDocusaurusTree = ({
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6540);
 /* harmony import */ var _docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2067);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([{path:'/diario-solteco/blog',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog','578'),exact:true},{path:'/diario-solteco/blog/archive',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/archive','b41'),exact:true},{path:'/diario-solteco/blog/authors',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/authors','a53'),exact:true},{path:'/diario-solteco/blog/authors/claudioasj',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/authors/claudioasj','23c'),exact:true},{path:'/diario-solteco/blog/primeiro-dia',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/primeiro-dia','461'),exact:true},{path:'/diario-solteco/blog/tags',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/tags','f64'),exact:true},{path:'/diario-solteco/blog/tags/conversa',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/tags/conversa','e82'),exact:true},{path:'/diario-solteco/markdown-page',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/markdown-page','d3b'),exact:true},{path:'/diario-solteco/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs','d70'),routes:[{path:'/diario-solteco/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs','849'),routes:[{path:'/diario-solteco/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs','6d1'),routes:[{path:'/diario-solteco/docs/intro',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs/intro','2b7'),exact:true,sidebar:"tutorialSidebar"},{path:'/diario-solteco/docs/projetos/ticdemos',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs/projetos/ticdemos','512'),exact:true,sidebar:"tutorialSidebar"}]}]}]},{path:'/diario-solteco/',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/','089'),exact:true},{path:'*',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('*')}]);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([{path:'/diario-solteco/blog',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog','578'),exact:true},{path:'/diario-solteco/blog/archive',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/archive','b41'),exact:true},{path:'/diario-solteco/blog/authors',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/authors','a53'),exact:true},{path:'/diario-solteco/blog/authors/claudioasj',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/authors/claudioasj','23c'),exact:true},{path:'/diario-solteco/blog/primeiro-dia',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/primeiro-dia','461'),exact:true},{path:'/diario-solteco/blog/tags',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/tags','f64'),exact:true},{path:'/diario-solteco/blog/tags/conversa',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/blog/tags/conversa','e82'),exact:true},{path:'/diario-solteco/markdown-page',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/markdown-page','d3b'),exact:true},{path:'/diario-solteco/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs','530'),routes:[{path:'/diario-solteco/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs','9a0'),routes:[{path:'/diario-solteco/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs','f4c'),routes:[{path:'/diario-solteco/docs/category/projetos',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs/category/projetos','d50'),exact:true,sidebar:"tutorialSidebar"},{path:'/diario-solteco/docs/intro',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs/intro','2b7'),exact:true,sidebar:"tutorialSidebar"},{path:'/diario-solteco/docs/projetos/ticdemos',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs/projetos/ticdemos','512'),exact:true,sidebar:"tutorialSidebar"},{path:'/diario-solteco/docs/tecnologia-social',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/docs/tecnologia-social','88c'),exact:true,sidebar:"tutorialSidebar"}]}]}]},{path:'/diario-solteco/',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/diario-solteco/','089'),exact:true},{path:'*',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('*')}]);
 
 /***/ },
 
@@ -3851,19 +4144,20 @@ const EmptyContext=Symbol('EmptyContext');const Context=/*#__PURE__*/react__WEBP
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $S: () => (/* binding */ useCurrentSidebarCategory),
 /* harmony export */   B5: () => (/* binding */ useDocRootMetadata),
 /* harmony export */   Nr: () => (/* binding */ findFirstSidebarItemLink),
 /* harmony export */   OF: () => (/* binding */ useSidebarBreadcrumbs),
 /* harmony export */   QB: () => (/* binding */ useLayoutDoc),
 /* harmony export */   Vd: () => (/* binding */ useDocsVersionCandidates),
 /* harmony export */   Y: () => (/* binding */ useVisibleSidebarItems),
+/* harmony export */   a4: () => (/* binding */ useCurrentSidebarSiblings),
+/* harmony export */   cC: () => (/* binding */ useDocById),
+/* harmony export */   d1: () => (/* binding */ filterDocCardListItems),
 /* harmony export */   fW: () => (/* binding */ useLayoutDocsSidebar),
 /* harmony export */   w8: () => (/* binding */ isActiveSidebarItem)
 /* harmony export */ });
-/* unused harmony exports useDocById, findSidebarCategory, findFirstSidebarItemCategoryLink, useCurrentSidebarCategory, useCurrentSidebarSiblings, isVisibleSidebarItem, filterDocCardListItems */
-/* unused harmony import specifier */ var useLocation;
-/* unused harmony import specifier */ var useDocsVersion;
-/* unused harmony import specifier */ var useDocsSidebar;
+/* unused harmony exports findSidebarCategory, findFirstSidebarItemCategoryLink, isVisibleSidebarItem */
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6540);
 /* harmony import */ var _docusaurus_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6347);
 /* harmony import */ var _docusaurus_renderRoutes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2831);
@@ -3878,7 +4172,7 @@ const EmptyContext=Symbol('EmptyContext');const Context=/*#__PURE__*/react__WEBP
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function useDocById(id){const version=useDocsVersion();if(!id){return undefined;}const doc=version.docs[id];if(!doc){throw new Error(`no version doc found by id=${id}`);}return doc;}/**
+ */function useDocById(id){const version=(0,_docsVersion__WEBPACK_IMPORTED_MODULE_7__/* .useDocsVersion */ .r)();if(!id){return undefined;}const doc=version.docs[id];if(!doc){throw new Error(`no version doc found by id=${id}`);}return doc;}/**
  * Pure function, similar to `Array#find`, but works on the sidebar tree.
  */function findSidebarCategory(sidebar,predicate){for(const item of sidebar){if(item.type==='category'){if(predicate(item)){return item;}const subItem=findSidebarCategory(item.items,predicate);if(subItem){return subItem;}}}return undefined;}/**
  * Best effort to assign a link to a sidebar category. If the category doesn't
@@ -3889,10 +4183,10 @@ const EmptyContext=Symbol('EmptyContext');const Context=/*#__PURE__*/react__WEBP
 return undefined;}/**
  * Gets the category associated with the current location. Should only be used
  * on category index pages.
- */function useCurrentSidebarCategory(){const{pathname}=useLocation();const sidebar=useDocsSidebar();if(!sidebar){throw new Error('Unexpected: cant find current sidebar in context');}const categoryBreadcrumbs=getSidebarBreadcrumbs({sidebarItems:sidebar.items,pathname,onlyCategories:true});const deepestCategory=categoryBreadcrumbs.slice(-1)[0];if(!deepestCategory){throw new Error(`${pathname} is not associated with a category. useCurrentSidebarCategory() should only be used on category index pages.`);}return deepestCategory;}/**
+ */function useCurrentSidebarCategory(){const{pathname}=(0,_docusaurus_router__WEBPACK_IMPORTED_MODULE_1__/* .useLocation */ .zy)();const sidebar=(0,_docsSidebar__WEBPACK_IMPORTED_MODULE_8__/* .useDocsSidebar */ .t)();if(!sidebar){throw new Error('Unexpected: cant find current sidebar in context');}const categoryBreadcrumbs=getSidebarBreadcrumbs({sidebarItems:sidebar.items,pathname,onlyCategories:true});const deepestCategory=categoryBreadcrumbs.slice(-1)[0];if(!deepestCategory){throw new Error(`${pathname} is not associated with a category. useCurrentSidebarCategory() should only be used on category index pages.`);}return deepestCategory;}/**
  * Gets the category associated with the current location. Should only be used
  * on category index pages.
- */function useCurrentSidebarSiblings(){const{pathname}=useLocation();const sidebar=useDocsSidebar();if(!sidebar){throw new Error('Unexpected: cant find current sidebar in context');}const categoryBreadcrumbs=getSidebarBreadcrumbs({sidebarItems:sidebar.items,pathname,onlyCategories:true});const deepestCategory=categoryBreadcrumbs.slice(-1)[0];return deepestCategory?.items??sidebar.items;}const isActive=(testedPath,activePath)=>typeof testedPath!=='undefined'&&(0,_docusaurus_theme_common_internal__WEBPACK_IMPORTED_MODULE_4__/* .isSamePath */ .ys)(testedPath,activePath);const containsActiveSidebarItem=(items,activePath)=>items.some(subItem=>isActiveSidebarItem(subItem,activePath));/**
+ */function useCurrentSidebarSiblings(){const{pathname}=(0,_docusaurus_router__WEBPACK_IMPORTED_MODULE_1__/* .useLocation */ .zy)();const sidebar=(0,_docsSidebar__WEBPACK_IMPORTED_MODULE_8__/* .useDocsSidebar */ .t)();if(!sidebar){throw new Error('Unexpected: cant find current sidebar in context');}const categoryBreadcrumbs=getSidebarBreadcrumbs({sidebarItems:sidebar.items,pathname,onlyCategories:true});const deepestCategory=categoryBreadcrumbs.slice(-1)[0];return deepestCategory?.items??sidebar.items;}const isActive=(testedPath,activePath)=>typeof testedPath!=='undefined'&&(0,_docusaurus_theme_common_internal__WEBPACK_IMPORTED_MODULE_4__/* .isSamePath */ .ys)(testedPath,activePath);const containsActiveSidebarItem=(items,activePath)=>items.some(subItem=>isActiveSidebarItem(subItem,activePath));/**
  * Checks if a sidebar item should be active, based on the active path.
  */function isActiveSidebarItem(item,activePath){if(item.type==='link'){return isActive(item.href,activePath);}if(item.type==='category'){return isActive(item.href,activePath)||containsActiveSidebarItem(item.items,activePath);}return false;}function isVisibleSidebarItem(item,activePath){switch(item.type){case'category':return isActiveSidebarItem(item,activePath)||typeof item.href!=='undefined'&&!item.linkUnlisted||item.items.some(subItem=>isVisibleSidebarItem(subItem,activePath));case'link':// An unlisted item remains visible if it is active
 return!item.unlisted||isActiveSidebarItem(item,activePath);default:return true;}}function useVisibleSidebarItems(items,activePath){return (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(()=>items.filter(item=>isVisibleSidebarItem(item,activePath)),[items,activePath]);}/**
@@ -5692,6 +5986,88 @@ const InfimaClasses='alert alert--info';function Details({...props}){return/*#__
  */// TODO move to design system folder
 function BreadcrumbsItemLink({children,href,isLast}){const className='breadcrumbs__link';if(isLast){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("span",{className:className,children:children});}return href?/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_docusaurus_Link__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .A,{className:className,href:href,children:/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("span",{children:children})}):/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("span",{className:className,children:children});}// TODO move to design system folder
 function BreadcrumbsItem({children,active}){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("li",{className:(0,clsx__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('breadcrumbs__item',{'breadcrumbs__item--active':active}),children:children});}function DocBreadcrumbs(){const breadcrumbs=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_3__/* .useSidebarBreadcrumbs */ .OF)();const homePageRoute=(0,_docusaurus_theme_common_internal__WEBPACK_IMPORTED_MODULE_4__/* .useHomePageRoute */ .Dt)();if(!breadcrumbs){return null;}return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.Fragment,{children:[/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_theme_DocBreadcrumbs_StructuredData__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .A,{breadcrumbs:breadcrumbs}),/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("nav",{className:(0,clsx__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(_docusaurus_theme_common__WEBPACK_IMPORTED_MODULE_2__/* .ThemeClassNames */ .G.docs.docBreadcrumbs,(_styles_module_css__WEBPACK_IMPORTED_MODULE_9___default().breadcrumbsContainer)),"aria-label":(0,_docusaurus_Translate__WEBPACK_IMPORTED_MODULE_6__/* .translate */ .T)({id:'theme.docs.breadcrumbs.navAriaLabel',message:'Breadcrumbs',description:'The ARIA label for the breadcrumbs'}),children:/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("ul",{className:"breadcrumbs",children:[homePageRoute&&/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_theme_DocBreadcrumbs_Items_Home__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .A,{}),breadcrumbs.map((item,idx)=>{const isLast=idx===breadcrumbs.length-1;const href=item.type==='category'&&item.linkUnlisted?undefined:item.href;return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(BreadcrumbsItem,{active:isLast,children:/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(BreadcrumbsItemLink,{href:href,isLast:isLast,children:item.label})},idx);})]})})]});}
+
+/***/ },
+
+/***/ 2050
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (/* binding */ DocCard)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6540);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4164);
+/* harmony import */ var _docusaurus_Link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8774);
+/* harmony import */ var _docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6972);
+/* harmony import */ var _docusaurus_theme_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5846);
+/* harmony import */ var _docusaurus_isInternalUrl__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6654);
+/* harmony import */ var _docusaurus_Translate__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(986);
+/* harmony import */ var _theme_Heading__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(4608);
+/* harmony import */ var _styles_module_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(6112);
+/* harmony import */ var _styles_module_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_module_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(4848);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function useCategoryItemsPlural(){const{selectMessage}=(0,_docusaurus_theme_common__WEBPACK_IMPORTED_MODULE_4__/* .usePluralForm */ .W)();return count=>selectMessage(count,(0,_docusaurus_Translate__WEBPACK_IMPORTED_MODULE_6__/* .translate */ .T)({message:'1 item|{count} items',id:'theme.docs.DocCard.categoryDescription.plurals',description:'The default description for a category card in the generated index about how many items this category includes'},{count}));}function CardContainer({className,href,children}){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_docusaurus_Link__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .A,{href:href,className:(0,clsx__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('card padding--lg',(_styles_module_css__WEBPACK_IMPORTED_MODULE_8___default().cardContainer),className),children:children});}function CardLayout({className,href,icon,title,description}){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)(CardContainer,{href:href,className:className,children:[/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)(_theme_Heading__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .A,{as:"h2",className:(0,clsx__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('text--truncate',(_styles_module_css__WEBPACK_IMPORTED_MODULE_8___default().cardTitle)),title:title,children:[icon," ",title]}),description&&/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("p",{className:(0,clsx__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('text--truncate',(_styles_module_css__WEBPACK_IMPORTED_MODULE_8___default().cardDescription)),title:description,children:description})]});}function CardCategory({item}){const href=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_3__/* .findFirstSidebarItemLink */ .Nr)(item);const categoryItemsPlural=useCategoryItemsPlural();// Unexpected: categories that don't have a link have been filtered upfront
+if(!href){return null;}return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(CardLayout,{className:item.className,href:href,icon:"\uD83D\uDDC3\uFE0F",title:item.label,description:item.description??categoryItemsPlural(item.items.length)});}function CardLink({item}){const icon=(0,_docusaurus_isInternalUrl__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .A)(item.href)?'📄️':'🔗';const doc=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_3__/* .useDocById */ .cC)(item.docId??undefined);return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(CardLayout,{className:item.className,href:item.href,icon:icon,title:item.label,description:item.description??doc?.description});}function DocCard({item}){switch(item.type){case'link':return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(CardLink,{item:item});case'category':return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(CardCategory,{item:item});default:throw new Error(`unknown item type ${JSON.stringify(item)}`);}}
+
+/***/ },
+
+/***/ 2550
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (/* binding */ DocCardList)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6540);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4164);
+/* harmony import */ var _docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6972);
+/* harmony import */ var _theme_DocCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2050);
+/* harmony import */ var _styles_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(36);
+/* harmony import */ var _styles_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_module_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4848);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function DocCardListForCurrentSidebarCategory({className}){const items=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_2__/* .useCurrentSidebarSiblings */ .a4)();return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(DocCardList,{items:items,className:className});}function DocCardListItem({item}){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("article",{className:(0,clsx__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)((_styles_module_css__WEBPACK_IMPORTED_MODULE_4___default().docCardListItem),'col col--6'),children:/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_theme_DocCard__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .A,{item:item})});}function DocCardList(props){const{items,className}=props;if(!items){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(DocCardListForCurrentSidebarCategory,{...props});}const filteredItems=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_2__/* .filterDocCardListItems */ .d1)(items);return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("section",{className:(0,clsx__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('row',className),children:filteredItems.map((item,index)=>/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(DocCardListItem,{item:item},index))});}
+
+/***/ },
+
+/***/ 8780
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ DocCategoryGeneratedIndexPage)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6540);
+/* harmony import */ var _docusaurus_theme_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5500);
+/* harmony import */ var _docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6972);
+/* harmony import */ var _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6025);
+/* harmony import */ var _theme_DocCardList__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2550);
+/* harmony import */ var _theme_DocPaginator__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7719);
+/* harmony import */ var _theme_DocVersionBanner__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1878);
+/* harmony import */ var _theme_DocVersionBadge__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(4267);
+/* harmony import */ var _theme_DocBreadcrumbs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9978);
+/* harmony import */ var _theme_Heading__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(4608);
+/* harmony import */ var _styles_module_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(1902);
+/* harmony import */ var _styles_module_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_styles_module_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(4848);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function DocCategoryGeneratedIndexPageMetadata({categoryGeneratedIndex}){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_docusaurus_theme_common__WEBPACK_IMPORTED_MODULE_1__/* .PageMetadata */ .be,{title:categoryGeneratedIndex.title,description:categoryGeneratedIndex.description,keywords:categoryGeneratedIndex.keywords// TODO `require` this?
+,image:(0,_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Ay)(categoryGeneratedIndex.image)});}function DocCategoryGeneratedIndexPageContent({categoryGeneratedIndex}){const category=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_2__/* .useCurrentSidebarCategory */ .$S)();return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)("div",{className:(_styles_module_css__WEBPACK_IMPORTED_MODULE_10___default().generatedIndexPage),children:[/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_theme_DocVersionBanner__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .A,{}),/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_theme_DocBreadcrumbs__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .A,{}),/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_theme_DocVersionBadge__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .A,{}),/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)("header",{children:[/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_theme_Heading__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .A,{as:"h1",className:(_styles_module_css__WEBPACK_IMPORTED_MODULE_10___default().title),children:categoryGeneratedIndex.title}),categoryGeneratedIndex.description&&/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("p",{children:categoryGeneratedIndex.description})]}),/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("article",{className:"margin-top--lg",children:/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_theme_DocCardList__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .A,{items:category.items,className:(_styles_module_css__WEBPACK_IMPORTED_MODULE_10___default().list)})}),/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)("footer",{className:"margin-top--md",children:/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_theme_DocPaginator__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .A,{previous:categoryGeneratedIndex.navigation.previous,next:categoryGeneratedIndex.navigation.next})})]});}function DocCategoryGeneratedIndexPage(props){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.Fragment,{children:[/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(DocCategoryGeneratedIndexPageMetadata,{...props}),/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(DocCategoryGeneratedIndexPageContent,{...props})]});}
 
 /***/ },
 
@@ -10528,6 +10904,42 @@ module.exports = {
 // Exports
 module.exports = {
 	"breadcrumbsContainer": `breadcrumbsContainer_Z_bl`
+};
+
+
+/***/ },
+
+/***/ 6112
+(module) {
+
+// Exports
+module.exports = {
+	"cardContainer": `cardContainer_fWXF`,
+	"cardTitle": `cardTitle_rnsV`,
+	"cardDescription": `cardDescription_PWke`
+};
+
+
+/***/ },
+
+/***/ 36
+(module) {
+
+// Exports
+module.exports = {
+	"docCardListItem": `docCardListItem_W1sv`
+};
+
+
+/***/ },
+
+/***/ 1902
+(module) {
+
+// Exports
+module.exports = {
+	"generatedIndexPage": `generatedIndexPage_vN6x`,
+	"title": `title_kItE`
 };
 
 
@@ -31380,7 +31792,7 @@ __webpack_require__.r(__webpack_exports__);
   "url": "https://claudio-asj.github.io",
   "baseUrl": "/diario-solteco/",
   "organizationName": "claudio-asj",
-  "projectName": "diario-solteco.github.io",
+  "projectName": "diario-solteco",
   "deploymentBranch": "main",
   "onBrokenLinks": "throw",
   "i18n": {
@@ -31397,7 +31809,7 @@ __webpack_require__.r(__webpack_exports__);
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/claudio-asj/diario-solteco/blob/main"
         },
         "blog": {
           "showReadingTime": true,
@@ -31408,7 +31820,7 @@ __webpack_require__.r(__webpack_exports__);
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "editUrl": "https://github.com/claudio-asj/diario-solteco/blob/main",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -31427,9 +31839,9 @@ __webpack_require__.r(__webpack_exports__);
       "disableSwitch": false
     },
     "navbar": {
-      "title": "My Site",
+      "title": "Diario Solteco",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Logo Diario Solteco",
         "src": "img/logo.svg"
       },
       "items": [
@@ -31437,7 +31849,7 @@ __webpack_require__.r(__webpack_exports__);
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Docs"
         },
         {
           "to": "/blog",
@@ -31445,7 +31857,7 @@ __webpack_require__.r(__webpack_exports__);
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/claudio-asj/diario-solteco",
           "label": "GitHub",
           "position": "right"
         }
@@ -31456,46 +31868,33 @@ __webpack_require__.r(__webpack_exports__);
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Conteudo",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Introducao",
               "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
             },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "X",
-              "href": "https://x.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
             {
               "label": "Blog",
               "to": "/blog"
+            }
+          ]
+        },
+        {
+          "title": "Projeto",
+          "items": [
+            {
+              "label": "Repositorio",
+              "href": "https://github.com/claudio-asj/diario-solteco"
             },
             {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "label": "Pages",
+              "href": "https://claudio-asj.github.io/diario-solteco/"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2026 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2026 Claudio Alves. Feito com Docusaurus."
     },
     "prism": {
       "theme": {
@@ -35660,7 +36059,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"metadata":{"permalink":"/diario-solt
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"archive":{"blogPosts":[{"id":"primeiro-dia","metadata":{"permalink":"/diario-solteco/blog/primeiro-dia","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-02-26-primeiro-dia.mdx","source":"@site/blog/2026-02-26-primeiro-dia.mdx","title":"Primeiro dia","description":"Hoje é o meu primeiro dia desde que tive essa ideia e decidi colocá-la em prática imediatamente. Eu estava em casa, resolvendo algumas tarefas mais “burocráticas” do projeto, quando percebi como alguém que entra no universo da tecnologia social - e áreas relacionadas - pode facilmente se sentir perdido diante da quantidade de termos utilizados.","date":"2026-02-26T00:00:00.000Z","tags":[{"inline":false,"label":"Conversa","permalink":"/diario-solteco/blog/tags/conversa","description":"Apenas uma conversa minha comigo mesmo :/"}],"readingTime":0.66,"hasTruncateMarker":false,"authors":[{"name":"Claudio Junior","title":"Bolsista do TICDeMoS","url":"https://claudiojr.vercel.app/","page":{"permalink":"/diario-solteco/blog/authors/claudioasj"},"socials":{"linkedin":"https://www.linkedin.com/in/claudioasjr/","github":"https://github.com/claudio-asj"},"imageURL":"https://github.com/claudio-asj.png","key":"claudioasj"}],"frontMatter":{"slug":"primeiro-dia","title":"Primeiro dia","authors":["claudioasj"],"tags":["conversa"]},"unlisted":false},"content":"Hoje é o meu primeiro dia desde que tive essa ideia e decidi colocá-la em prática imediatamente. Eu estava em casa, resolvendo algumas tarefas mais “burocráticas” do projeto, quando percebi como alguém que entra no universo da tecnologia social - e áreas relacionadas - pode facilmente se sentir perdido diante da quantidade de termos utilizados.\\n\\nEsses termos não são apenas palavras técnicas; eles carregam conceitos, ideias e, muitas vezes, debates longos e complexos por trás deles.\\n\\nFoi a partir dessa reflexão que decidi começar a configurar este site. A intenção é dupla: me organizar melhor e, ao mesmo tempo, praticar e desenvolver a minha escrita.\\n\\nAgora, é torcer para que tudo isso resulte em algo minimamente bom, claro e bem estruturado.\\n\\nHoje eu resolvi colocar algumas coisas iniciais na documentação começando pelo básico."}]}}');
+module.exports = /*#__PURE__*/JSON.parse('{"archive":{"blogPosts":[{"id":"primeiro-dia","metadata":{"permalink":"/diario-solteco/blog/primeiro-dia","editUrl":"https://github.com/claudio-asj/diario-solteco/blob/main/blog/2026-02-26-primeiro-dia.mdx","source":"@site/blog/2026-02-26-primeiro-dia.mdx","title":"Primeiro dia","description":"Hoje é o meu primeiro dia desde que tive essa ideia e decidi colocá-la em prática imediatamente. Eu estava em casa, resolvendo algumas tarefas mais “burocráticas” do projeto, quando percebi como alguém que entra no universo da tecnologia social - e áreas relacionadas - pode facilmente se sentir perdido diante da quantidade de termos utilizados.","date":"2026-02-26T00:00:00.000Z","tags":[{"inline":false,"label":"Conversa","permalink":"/diario-solteco/blog/tags/conversa","description":"Apenas uma conversa minha comigo mesmo :/"}],"readingTime":0.66,"hasTruncateMarker":false,"authors":[{"name":"Claudio Junior","title":"Bolsista do TICDeMoS","url":"https://claudiojr.vercel.app/","page":{"permalink":"/diario-solteco/blog/authors/claudioasj"},"socials":{"linkedin":"https://www.linkedin.com/in/claudioasjr/","github":"https://github.com/claudio-asj"},"imageURL":"https://github.com/claudio-asj.png","key":"claudioasj"}],"frontMatter":{"slug":"primeiro-dia","title":"Primeiro dia","authors":["claudioasj"],"tags":["conversa"]},"unlisted":false},"content":"Hoje é o meu primeiro dia desde que tive essa ideia e decidi colocá-la em prática imediatamente. Eu estava em casa, resolvendo algumas tarefas mais “burocráticas” do projeto, quando percebi como alguém que entra no universo da tecnologia social - e áreas relacionadas - pode facilmente se sentir perdido diante da quantidade de termos utilizados.\\n\\nEsses termos não são apenas palavras técnicas; eles carregam conceitos, ideias e, muitas vezes, debates longos e complexos por trás deles.\\n\\nFoi a partir dessa reflexão que decidi começar a configurar este site. A intenção é dupla: me organizar melhor e, ao mesmo tempo, praticar e desenvolver a minha escrita.\\n\\nAgora, é torcer para que tudo isso resulte em algo minimamente bom, claro e bem estruturado.\\n\\nHoje eu resolvi colocar algumas coisas iniciais na documentação começando pelo básico."}]}}');
 
 /***/ },
 
@@ -35700,7 +36099,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"tag":{"label":"Conversa","permalink"
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/diario-solteco/blog/primeiro-dia","editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-02-26-primeiro-dia.mdx","source":"@site/blog/2026-02-26-primeiro-dia.mdx","title":"Primeiro dia","description":"Hoje é o meu primeiro dia desde que tive essa ideia e decidi colocá-la em prática imediatamente. Eu estava em casa, resolvendo algumas tarefas mais “burocráticas” do projeto, quando percebi como alguém que entra no universo da tecnologia social - e áreas relacionadas - pode facilmente se sentir perdido diante da quantidade de termos utilizados.","date":"2026-02-26T00:00:00.000Z","tags":[{"inline":false,"label":"Conversa","permalink":"/diario-solteco/blog/tags/conversa","description":"Apenas uma conversa minha comigo mesmo :/"}],"readingTime":0.66,"hasTruncateMarker":false,"authors":[{"name":"Claudio Junior","title":"Bolsista do TICDeMoS","url":"https://claudiojr.vercel.app/","page":{"permalink":"/diario-solteco/blog/authors/claudioasj"},"socials":{"linkedin":"https://www.linkedin.com/in/claudioasjr/","github":"https://github.com/claudio-asj"},"imageURL":"https://github.com/claudio-asj.png","key":"claudioasj"}],"frontMatter":{"slug":"primeiro-dia","title":"Primeiro dia","authors":["claudioasj"],"tags":["conversa"]},"unlisted":false}');
+module.exports = /*#__PURE__*/JSON.parse('{"permalink":"/diario-solteco/blog/primeiro-dia","editUrl":"https://github.com/claudio-asj/diario-solteco/blob/main/blog/2026-02-26-primeiro-dia.mdx","source":"@site/blog/2026-02-26-primeiro-dia.mdx","title":"Primeiro dia","description":"Hoje é o meu primeiro dia desde que tive essa ideia e decidi colocá-la em prática imediatamente. Eu estava em casa, resolvendo algumas tarefas mais “burocráticas” do projeto, quando percebi como alguém que entra no universo da tecnologia social - e áreas relacionadas - pode facilmente se sentir perdido diante da quantidade de termos utilizados.","date":"2026-02-26T00:00:00.000Z","tags":[{"inline":false,"label":"Conversa","permalink":"/diario-solteco/blog/tags/conversa","description":"Apenas uma conversa minha comigo mesmo :/"}],"readingTime":0.66,"hasTruncateMarker":false,"authors":[{"name":"Claudio Junior","title":"Bolsista do TICDeMoS","url":"https://claudiojr.vercel.app/","page":{"permalink":"/diario-solteco/blog/authors/claudioasj"},"socials":{"linkedin":"https://www.linkedin.com/in/claudioasjr/","github":"https://github.com/claudio-asj"},"imageURL":"https://github.com/claudio-asj.png","key":"claudioasj"}],"frontMatter":{"slug":"primeiro-dia","title":"Primeiro dia","authors":["claudioasj"],"tags":["conversa"]},"unlisted":false}');
 
 /***/ },
 
@@ -35716,7 +36115,15 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"docusaurus-plugin-content-doc
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"version":{"pluginId":"default","version":"current","label":"Next","banner":null,"badge":false,"noIndex":false,"className":"docs-version-current","isLast":true,"docsSidebars":{"tutorialSidebar":[{"type":"link","href":"/diario-solteco/docs/intro","label":"Tela inicial","docId":"intro","unlisted":false},{"type":"category","label":"projetos","collapsible":true,"collapsed":true,"items":[{"type":"link","href":"/diario-solteco/docs/projetos/ticdemos","label":"TICDeMos","docId":"projetos/ticdemos","unlisted":false}]}]},"docs":{"intro":{"id":"intro","title":"Tela inicial","description":"","sidebar":"tutorialSidebar"},"projetos/ticdemos":{"id":"projetos/ticdemos","title":"TICDeMos","description":"Tecnologias da Informação e Comunicação, Democracia e Movimentos Sociais","sidebar":"tutorialSidebar"}}}}');
+module.exports = /*#__PURE__*/JSON.parse('{"version":{"pluginId":"default","version":"current","label":"Next","banner":null,"badge":false,"noIndex":false,"className":"docs-version-current","isLast":true,"docsSidebars":{"tutorialSidebar":[{"type":"link","href":"/diario-solteco/docs/intro","label":"SOLTEC – Núcleo de Solidariedade Técnica","docId":"intro","unlisted":false},{"type":"link","href":"/diario-solteco/docs/tecnologia-social","label":"Tecnologia Social","docId":"tecnologia-social","unlisted":false},{"type":"category","label":"Projetos","collapsible":true,"collapsed":true,"items":[{"type":"link","href":"/diario-solteco/docs/projetos/ticdemos","label":"TICDeMos","docId":"projetos/ticdemos","unlisted":false}],"href":"/diario-solteco/docs/category/projetos"}]},"docs":{"intro":{"id":"intro","title":"SOLTEC – Núcleo de Solidariedade Técnica","description":"Apresentação institucional do SOLTEC/UFRJ","sidebar":"tutorialSidebar"},"projetos/ticdemos":{"id":"projetos/ticdemos","title":"TICDeMos","description":"Tecnologias da Informação e Comunicação, Democracia e Movimentos Sociais","sidebar":"tutorialSidebar"},"tecnologia-social":{"id":"tecnologia-social","title":"Tecnologia Social","description":"Alguma coisa sobre TS","sidebar":"tutorialSidebar"}}}}');
+
+/***/ },
+
+/***/ 9898
+(module) {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"categoryGeneratedIndex":{"title":"Projetos","description":"Projetos e iniciativas relacionados ao Diario Solteco.","slug":"/category/projetos","permalink":"/diario-solteco/docs/category/projetos","sidebar":"tutorialSidebar","navigation":{"previous":{"title":"Tecnologia Social","permalink":"/diario-solteco/docs/tecnologia-social"},"next":{"title":"TICDeMos","permalink":"/diario-solteco/docs/projetos/ticdemos"}}}}');
 
 /***/ },
 
@@ -35724,7 +36131,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"version":{"pluginId":"default","vers
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"id":"intro","title":"Tela inicial","description":"","source":"@site/docs/intro.md","sourceDirName":".","slug":"/intro","permalink":"/diario-solteco/docs/intro","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md","tags":[],"version":"current","frontMatter":{},"sidebar":"tutorialSidebar","next":{"title":"TICDeMos","permalink":"/diario-solteco/docs/projetos/ticdemos"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"id":"intro","title":"SOLTEC – Núcleo de Solidariedade Técnica","description":"Apresentação institucional do SOLTEC/UFRJ","source":"@site/docs/intro.md","sourceDirName":".","slug":"/intro","permalink":"/diario-solteco/docs/intro","draft":false,"unlisted":false,"editUrl":"https://github.com/claudio-asj/diario-solteco/blob/main/docs/intro.md","tags":[],"version":"current","sidebarPosition":1,"frontMatter":{"title":"SOLTEC – Núcleo de Solidariedade Técnica","description":"Apresentação institucional do SOLTEC/UFRJ","sidebar_position":1},"sidebar":"tutorialSidebar","next":{"title":"Tecnologia Social","permalink":"/diario-solteco/docs/tecnologia-social"}}');
 
 /***/ },
 
@@ -35732,7 +36139,15 @@ module.exports = /*#__PURE__*/JSON.parse('{"id":"intro","title":"Tela inicial","
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"id":"projetos/ticdemos","title":"TICDeMos","description":"Tecnologias da Informação e Comunicação, Democracia e Movimentos Sociais","source":"@site/docs/projetos/ticdemos.md","sourceDirName":"projetos","slug":"/projetos/ticdemos","permalink":"/diario-solteco/docs/projetos/ticdemos","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/projetos/ticdemos.md","tags":[],"version":"current","frontMatter":{"title":"TICDeMos","description":"Tecnologias da Informação e Comunicação, Democracia e Movimentos Sociais"},"sidebar":"tutorialSidebar","previous":{"title":"Tela inicial","permalink":"/diario-solteco/docs/intro"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"id":"projetos/ticdemos","title":"TICDeMos","description":"Tecnologias da Informação e Comunicação, Democracia e Movimentos Sociais","source":"@site/docs/projetos/ticdemos.md","sourceDirName":"projetos","slug":"/projetos/ticdemos","permalink":"/diario-solteco/docs/projetos/ticdemos","draft":false,"unlisted":false,"editUrl":"https://github.com/claudio-asj/diario-solteco/blob/main/docs/projetos/ticdemos.md","tags":[],"version":"current","sidebarPosition":1,"frontMatter":{"title":"TICDeMos","description":"Tecnologias da Informação e Comunicação, Democracia e Movimentos Sociais","sidebar_position":1},"sidebar":"tutorialSidebar","previous":{"title":"Projetos","permalink":"/diario-solteco/docs/category/projetos"}}');
+
+/***/ },
+
+/***/ 3035
+(module) {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"id":"tecnologia-social","title":"Tecnologia Social","description":"Alguma coisa sobre TS","source":"@site/docs/tecnologia-social.md","sourceDirName":".","slug":"/tecnologia-social","permalink":"/diario-solteco/docs/tecnologia-social","draft":false,"unlisted":false,"editUrl":"https://github.com/claudio-asj/diario-solteco/blob/main/docs/tecnologia-social.md","tags":[],"version":"current","sidebarPosition":2,"frontMatter":{"title":"Tecnologia Social","description":"Alguma coisa sobre TS","sidebar_position":2},"sidebar":"tutorialSidebar","previous":{"title":"SOLTEC – Núcleo de Solidariedade Técnica","permalink":"/diario-solteco/docs/intro"},"next":{"title":"Projetos","permalink":"/diario-solteco/docs/category/projetos"}}');
 
 /***/ },
 
@@ -35756,7 +36171,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"type":"mdx","permalink":"/diario-sol
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/diario-solteco/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/diario-solteco/docs","mainDocId":"intro","docs":[{"id":"intro","path":"/diario-solteco/docs/intro","sidebar":"tutorialSidebar"},{"id":"projetos/ticdemos","path":"/diario-solteco/docs/projetos/ticdemos","sidebar":"tutorialSidebar"}],"draftIds":[],"sidebars":{"tutorialSidebar":{"link":{"path":"/diario-solteco/docs/intro","label":"intro"}}}}],"breadcrumbs":true}}}');
+module.exports = /*#__PURE__*/JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/diario-solteco/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/diario-solteco/docs","mainDocId":"intro","docs":[{"id":"intro","path":"/diario-solteco/docs/intro","sidebar":"tutorialSidebar"},{"id":"projetos/ticdemos","path":"/diario-solteco/docs/projetos/ticdemos","sidebar":"tutorialSidebar"},{"id":"tecnologia-social","path":"/diario-solteco/docs/tecnologia-social","sidebar":"tutorialSidebar"},{"id":"/category/projetos","path":"/diario-solteco/docs/category/projetos","sidebar":"tutorialSidebar"}],"draftIds":[],"sidebars":{"tutorialSidebar":{"link":{"path":"/diario-solteco/docs/intro","label":"intro"}}}}],"breadcrumbs":true}}}');
 
 /***/ },
 
@@ -35772,7 +36187,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"defaultLocale":"pt-br","locales":["p
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"/diario-solteco/blog-578":{"__comp":"a6aa9e1f","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"d7cca3f7"}],"__props":"9006cba9"},"/diario-solteco/blog/archive-b41":{"__comp":"9e4087bc","__context":{"plugin":"36994c47"},"__props":"079b1d14"},"/diario-solteco/blog/authors-a53":{"__comp":"621db11d","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","__props":"69ba12b1"},"/diario-solteco/blog/authors/claudioasj-23c":{"__comp":"33fc5bb8","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"items":[{"content":"d7cca3f7"}],"sidebar":"814f3328","__props":"a1736471"},"/diario-solteco/blog/primeiro-dia-461":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"c81cc882"},"/diario-solteco/blog/tags-f64":{"__comp":"01a85c17","__context":{"plugin":"36994c47"},"sidebar":"814f3328","__props":"3e2c759f"},"/diario-solteco/blog/tags/conversa-e82":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"d7cca3f7"}],"__props":"1332d671"},"/diario-solteco/markdown-page-d3b":{"__comp":"1f391b9e","__context":{"plugin":"a7456010"},"content":"393be207"},"/diario-solteco/docs-d70":{"__comp":"5e95c892","__context":{"plugin":"aba21aa0"}},"/diario-solteco/docs-849":{"__comp":"a7bd4aaa","__props":"49b8d162"},"/diario-solteco/docs-6d1":{"__comp":"a94703ab"},"/diario-solteco/docs/intro-2b7":{"__comp":"17896441","content":"0e384e19"},"/diario-solteco/docs/projetos/ticdemos-512":{"__comp":"17896441","content":"e57cac48"},"/diario-solteco/-089":{"__comp":"1df93b7f","__context":{"plugin":"a7456010"},"config":"5e9f5e1a"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"/diario-solteco/blog-578":{"__comp":"a6aa9e1f","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"d7cca3f7"}],"__props":"9006cba9"},"/diario-solteco/blog/archive-b41":{"__comp":"9e4087bc","__context":{"plugin":"36994c47"},"__props":"079b1d14"},"/diario-solteco/blog/authors-a53":{"__comp":"621db11d","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","__props":"69ba12b1"},"/diario-solteco/blog/authors/claudioasj-23c":{"__comp":"33fc5bb8","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"items":[{"content":"d7cca3f7"}],"sidebar":"814f3328","__props":"a1736471"},"/diario-solteco/blog/primeiro-dia-461":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"c81cc882"},"/diario-solteco/blog/tags-f64":{"__comp":"01a85c17","__context":{"plugin":"36994c47"},"sidebar":"814f3328","__props":"3e2c759f"},"/diario-solteco/blog/tags/conversa-e82":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"d7cca3f7"}],"__props":"1332d671"},"/diario-solteco/markdown-page-d3b":{"__comp":"1f391b9e","__context":{"plugin":"a7456010"},"content":"393be207"},"/diario-solteco/docs-530":{"__comp":"5e95c892","__context":{"plugin":"aba21aa0"}},"/diario-solteco/docs-9a0":{"__comp":"a7bd4aaa","__props":"49b8d162"},"/diario-solteco/docs-f4c":{"__comp":"a94703ab"},"/diario-solteco/docs/category/projetos-d50":{"__comp":"14eb3368","__props":"053b142b"},"/diario-solteco/docs/intro-2b7":{"__comp":"17896441","content":"0e384e19"},"/diario-solteco/docs/projetos/ticdemos-512":{"__comp":"17896441","content":"e57cac48"},"/diario-solteco/docs/tecnologia-social-88c":{"__comp":"17896441","content":"3713613c"},"/diario-solteco/-089":{"__comp":"1df93b7f","__context":{"plugin":"a7456010"},"config":"5e9f5e1a"}}');
 
 /***/ },
 

@@ -1,6 +1,7 @@
 ---
 title: TICDeMos
 description: Tecnologias da Informação e Comunicação, Democracia e Movimentos Sociais
+sidebar_position: 1
 ---
 
 # TICDeMoS
