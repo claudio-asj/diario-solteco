@@ -1,23 +1,191 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  --hero-logo-url: none;
+  background:
+    radial-gradient(circle at 10% 20%, #f8f3d9 0%, transparent 30%),
+    radial-gradient(circle at 90% 10%, #d8efd3 0%, transparent 35%),
+    linear-gradient(160deg, #eef8ee 0%, #ffffff 55%, #f7f5ec 100%);
+  padding: 3.5rem 0 5rem;
   position: relative;
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--hero-logo-url);
+  background-size: 420px;
+  background-repeat: repeat;
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+.heroGrid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  margin: 0;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: #0f5132;
+  color: #ffffff;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.heroTitle {
+  margin: 0.9rem 0 0.7rem;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  line-height: 1.1;
+  color: #153c28;
+}
+
+.heroSubtitle {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #2c3e34;
+  max-width: 62ch;
 }
 
 .buttons {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 1.4rem;
+}
+
+.heroArt {
+  display: flex;
   justify-content: center;
+}
+
+.heroLogo {
+  width: min(100%, 360px);
+  border-radius: 20px;
+  box-shadow:
+    0 22px 40px rgba(21, 60, 40, 0.18),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  background: #ffffff;
+  padding: 1rem;
+}
+
+.quickLinks {
+  position: relative;
+  z-index: 1;
+  margin-top: 2.6rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #d7e7da;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 8px 20px rgba(26, 79, 54, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #8fc79f;
+  box-shadow: 0 14px 24px rgba(26, 79, 54, 0.15);
+}
+
+.cardLogo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.cardTitle {
+  margin: 0.7rem 0 0.45rem;
+  font-size: 1.08rem;
+  color: #133c28;
+}
+
+.cardDescription {
+  margin: 0;
+  color: #395245;
+  font-size: 0.95rem;
+}
+
+.githubCta {
+  position: relative;
+  z-index: 1;
+  margin-top: 1.6rem;
+  background: #113822;
+  color: #f5fff6;
+  border-radius: 18px;
+  padding: 1.1rem 1.2rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.githubLogo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 0.35rem;
+}
+
+.githubTitle {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.githubText {
+  margin: 0.25rem 0 0;
+  color: #d5ebd9;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2.3rem 0 3.2rem;
+  }
+
+  .heroGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroLogo {
+    max-width: 250px;
+  }
+
+  .quickLinks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .githubCta {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .githubLogo {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .quickLinks {
+    grid-template-columns: 1fr;
+  }
 }

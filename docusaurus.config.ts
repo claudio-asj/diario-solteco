@@ -63,7 +63,9 @@ const config: Config = {
       title: "Diario Solteco",
       logo: {
         alt: "Logo Diario Solteco",
-        src: "img/logo.svg",
+        src: "img/logo.png",
+        width: 36,
+        height: 36,
       },
       items: [
         {
@@ -74,8 +76,8 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/claudio-asj/diario-solteco",
-          label: "GitHub",
+          href: "https://github.com/claudio-asj",
+          label: "GitHub @claudio-asj",
           position: "right",
         },
       ],
@@ -102,6 +104,10 @@ const config: Config = {
             {
               label: "Repositorio",
               href: "https://github.com/claudio-asj/diario-solteco",
+            },
+            {
+              label: "Perfil GitHub",
+              href: "https://github.com/claudio-asj",
             },
             {
               label: "Pages",
